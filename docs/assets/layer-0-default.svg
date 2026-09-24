@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="980" viewBox="0 0 1320 980" role="img" aria-labelledby="title desc">
+<title id="title">Layer 0: DEFAULT</title>
+<desc id="desc">42 physical keys, colored by behavior. Each key shows its position, physical label, action, and behavior category. See the accompanying text table for exact bindings.</desc>
+<rect width="1320" height="980" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#172033">
+<text x="38" y="42" font-size="27" font-weight="700">0 / DEFAULT</text>
+<text x="38" y="72" font-size="16">42 positions · 0 disabled · Current configuration</text>
+<rect x="38" y="96" width="12" height="12" rx="3" fill="#f1f5f9" stroke="#475569"/>
+<text x="59" y="107" font-size="12">KEY · Ordinary key / modifier</text>
+<rect x="458" y="96" width="12" height="12" rx="3" fill="#fff4d6" stroke="#92400e"/>
+<text x="479" y="107" font-size="12">HOLD/TAP · Different hold and tap actions</text>
+<rect x="878" y="96" width="12" height="12" rx="3" fill="#dcfce7" stroke="#166534"/>
+<text x="899" y="107" font-size="12">STICKY · One-shot key / layer</text>
+<rect x="38" y="123" width="12" height="12" rx="3" fill="#ffedd5" stroke="#9a3412"/>
+<text x="59" y="134" font-size="12">LATCH · Key stays pressed until toggled</text>
+<rect x="458" y="123" width="12" height="12" rx="3" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="479" y="134" font-size="12">LAYER · Layer activation / switch</text>
+<rect x="878" y="123" width="12" height="12" rx="3" fill="#fce7f3" stroke="#9d174d"/>
+<text x="899" y="134" font-size="12">DANCE · Single / double press</text>
+<rect x="38" y="150" width="12" height="12" rx="3" fill="#cffafe" stroke="#155e75"/>
+<text x="59" y="161" font-size="12">MOUSE · Mouse button / wheel</text>
+<rect x="458" y="150" width="12" height="12" rx="3" fill="#fee2e2" stroke="#991b1b"/>
+<text x="479" y="161" font-size="12">DEVICE · Connection / power / lighting</text>
+<rect x="878" y="150" width="12" height="12" rx="3" fill="#e5e7eb" stroke="#4b5563"/>
+<text x="899" y="161" font-size="12">OFF · Disabled; no fall-through</text>
+<text x="38" y="200" font-size="14">Top label = physical key + position · 1 / 2 = single / double press · ! = reset or pairing action</text>
+<g data-position="0" data-binding="&amp;mkp LCLK">
+<title>Shoulder L (position 0): &amp;mkp LCLK. Hold the left mouse button while pressed.</title>
+<rect x="162.0" y="220.0" width="178.0" height="103" rx="9" fill="#cffafe" stroke="#155e75" stroke-width="1.2"/>
+<text x="251.0" y="239.0" text-anchor="middle" font-size="11" fill="#374151">Shoulder L · 0</text>
+<text x="251.0" y="265.0" text-anchor="middle" font-size="13.0" font-weight="650">Left click</text>
+<text x="251.0" y="309.0" text-anchor="middle" font-size="10" font-weight="700" fill="#155e75">MOUSE</text>
+</g>
+<g data-position="1" data-binding="&amp;mkp RCLK">
+<title>Shoulder R (position 1): &amp;mkp RCLK. Hold the right mouse button while pressed.</title>
+<rect x="968.0" y="220.0" width="178.0" height="103" rx="9" fill="#cffafe" stroke="#155e75" stroke-width="1.2"/>
+<text x="1057.0" y="239.0" text-anchor="middle" font-size="11" fill="#374151">Shoulder R · 1</text>
+<text x="1057.0" y="265.0" text-anchor="middle" font-size="13.0" font-weight="650">Right click</text>
+<text x="1057.0" y="309.0" text-anchor="middle" font-size="10" font-weight="700" fill="#155e75">MOUSE</text>
+</g>
+<g data-position="2" data-binding="&amp;kp LEFT">
+<title>Call (position 2): &amp;kp LEFT. Press Left arrow; release when the physical key is released.</title>
+<rect x="38.0" y="332.0" width="240.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="158.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Call · 2</text>
+<text x="158.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">Left arrow</text>
+<text x="158.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="3" data-binding="&amp;kp DOWN_ARROW">
+<title>BlackBerry (position 3): &amp;kp DOWN_ARROW. Press Down arrow; release when the physical key is released.</title>
+<rect x="286.0" y="332.0" width="240.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="406.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">BlackBerry · 3</text>
+<text x="406.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">Down arrow</text>
+<text x="406.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="4" data-binding="&amp;mkp LCLK">
+<title>Trackpad (position 4): &amp;mkp LCLK. Hold the left mouse button while pressed.</title>
+<rect x="596.0" y="332.0" width="116.0" height="103" rx="9" fill="#cffafe" stroke="#155e75" stroke-width="1.2"/>
+<text x="654.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Trackpad · 4</text>
+<text x="654.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">Left click</text>
+<text x="654.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#155e75">MOUSE</text>
+</g>
+<g data-position="5" data-binding="&amp;kp UP_ARROW">
+<title>Back (position 5): &amp;kp UP_ARROW. Press Up arrow; release when the physical key is released.</title>
+<rect x="782.0" y="332.0" width="240.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="902.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Back · 5</text>
+<text x="902.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">Up arrow</text>
+<text x="902.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="6" data-binding="&amp;kp RIGHT_ARROW">
+<title>End call (position 6): &amp;kp RIGHT_ARROW. Press Right arrow; release when the physical key is released.</title>
+<rect x="1030.0" y="332.0" width="240.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1150.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">End call · 6</text>
+<text x="1150.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">Right arrow</text>
+<text x="1150.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="7" data-binding="&amp;kp Q">
+<title>Q (position 7): &amp;kp Q. Press Q; release when the physical key is released.</title>
+<rect x="38.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="96.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">Q · 7</text>
+<text x="96.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Q</text>
+<text x="96.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="8" data-binding="&amp;kp W">
+<title>W (position 8): &amp;kp W. Press W; release when the physical key is released.</title>
+<rect x="162.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="220.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">W · 8</text>
+<text x="220.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">W</text>
+<text x="220.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="9" data-binding="&amp;kp E">
+<title>E (position 9): &amp;kp E. Press E; release when the physical key is released.</title>
+<rect x="286.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="344.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">E · 9</text>
+<text x="344.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">E</text>
+<text x="344.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="10" data-binding="&amp;kp R">
+<title>R (position 10): &amp;kp R. Press R; release when the physical key is released.</title>
+<rect x="410.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="468.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">R · 10</text>
+<text x="468.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">R</text>
+<text x="468.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="11" data-binding="&amp;kp T">
+<title>T (position 11): &amp;kp T. Press T; release when the physical key is released.</title>
+<rect x="534.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="592.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">T · 11</text>
+<text x="592.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">T</text>
+<text x="592.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="12" data-binding="&amp;kp Y">
+<title>Y (position 12): &amp;kp Y. Press Y; release when the physical key is released.</title>
+<rect x="658.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="716.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">Y · 12</text>
+<text x="716.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Y</text>
+<text x="716.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="13" data-binding="&amp;kp U">
+<title>U (position 13): &amp;kp U. Press U; release when the physical key is released.</title>
+<rect x="782.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="840.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">U · 13</text>
+<text x="840.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">U</text>
+<text x="840.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="14" data-binding="&amp;kp I">
+<title>I (position 14): &amp;kp I. Press I; release when the physical key is released.</title>
+<rect x="906.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="964.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">I · 14</text>
+<text x="964.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">I</text>
+<text x="964.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="15" data-binding="&amp;kp O">
+<title>O (position 15): &amp;kp O. Press O; release when the physical key is released.</title>
+<rect x="1030.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1088.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">O · 15</text>
+<text x="1088.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">O</text>
+<text x="1088.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="16" data-binding="&amp;kp P">
+<title>P (position 16): &amp;kp P. Press P; release when the physical key is released.</title>
+<rect x="1154.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">P · 16</text>
+<text x="1212.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">P</text>
+<text x="1212.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="17" data-binding="&amp;kp A">
+<title>A (position 17): &amp;kp A. Press A; release when the physical key is released.</title>
+<rect x="38.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="96.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">A · 17</text>
+<text x="96.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">A</text>
+<text x="96.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="18" data-binding="&amp;kp S">
+<title>S (position 18): &amp;kp S. Press S; release when the physical key is released.</title>
+<rect x="162.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="220.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">S · 18</text>
+<text x="220.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">S</text>
+<text x="220.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="19" data-binding="&amp;kp D">
+<title>D (position 19): &amp;kp D. Press D; release when the physical key is released.</title>
+<rect x="286.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="344.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">D · 19</text>
+<text x="344.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">D</text>
+<text x="344.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="20" data-binding="&amp;kp F">
+<title>F (position 20): &amp;kp F. Press F; release when the physical key is released.</title>
+<rect x="410.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="468.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">F · 20</text>
+<text x="468.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">F</text>
+<text x="468.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="21" data-binding="&amp;kp G">
+<title>G (position 21): &amp;kp G. Press G; release when the physical key is released.</title>
+<rect x="534.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="592.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">G · 21</text>
+<text x="592.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">G</text>
+<text x="592.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="22" data-binding="&amp;kp H">
+<title>H (position 22): &amp;kp H. Press H; release when the physical key is released.</title>
+<rect x="658.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="716.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">H · 22</text>
+<text x="716.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">H</text>
+<text x="716.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="23" data-binding="&amp;kp J">
+<title>J (position 23): &amp;kp J. Press J; release when the physical key is released.</title>
+<rect x="782.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="840.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">J · 23</text>
+<text x="840.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">J</text>
+<text x="840.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="24" data-binding="&amp;kp K">
+<title>K (position 24): &amp;kp K. Press K; release when the physical key is released.</title>
+<rect x="906.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="964.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">K · 24</text>
+<text x="964.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">K</text>
+<text x="964.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="25" data-binding="&amp;kp L">
+<title>L (position 25): &amp;kp L. Press L; release when the physical key is released.</title>
+<rect x="1030.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1088.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">L · 25</text>
+<text x="1088.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">L</text>
+<text x="1088.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="26" data-binding="&amp;kp BSPC">
+<title>Backspace (position 26): &amp;kp BSPC. Press Backspace; release when the physical key is released.</title>
+<rect x="1154.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">Backspace · 26</text>
+<text x="1212.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Backspace</text>
+<text x="1212.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="27" data-binding="&amp;mod_shift">
+<title>Alt (position 27): &amp;mod_shift. Press Shift immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="38.0" y="668.0" width="116.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="96.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Alt · 27</text>
+<text x="96.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Shift</text>
+<text x="96.0" y="732.0" text-anchor="middle" font-size="12.8" font-weight="650">Hold / 2× lock</text>
+<text x="96.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="28" data-binding="&amp;kp Z">
+<title>Z (position 28): &amp;kp Z. Press Z; release when the physical key is released.</title>
+<rect x="162.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="220.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Z · 28</text>
+<text x="220.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Z</text>
+<text x="220.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="29" data-binding="&amp;kp X">
+<title>X (position 29): &amp;kp X. Press X; release when the physical key is released.</title>
+<rect x="286.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="344.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">X · 29</text>
+<text x="344.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">X</text>
+<text x="344.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="30" data-binding="&amp;kp C">
+<title>C (position 30): &amp;kp C. Press C; release when the physical key is released.</title>
+<rect x="410.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="468.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">C · 30</text>
+<text x="468.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">C</text>
+<text x="468.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="31" data-binding="&amp;kp V">
+<title>V (position 31): &amp;kp V. Press V; release when the physical key is released.</title>
+<rect x="534.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="592.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">V · 31</text>
+<text x="592.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">V</text>
+<text x="592.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="32" data-binding="&amp;kp B">
+<title>B (position 32): &amp;kp B. Press B; release when the physical key is released.</title>
+<rect x="658.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="716.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">B · 32</text>
+<text x="716.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">B</text>
+<text x="716.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="33" data-binding="&amp;kp N">
+<title>N (position 33): &amp;kp N. Press N; release when the physical key is released.</title>
+<rect x="782.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="840.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">N · 33</text>
+<text x="840.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">N</text>
+<text x="840.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="34" data-binding="&amp;kp M">
+<title>M (position 34): &amp;kp M. Press M; release when the physical key is released.</title>
+<rect x="906.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="964.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">M · 34</text>
+<text x="964.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">M</text>
+<text x="964.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="35" data-binding="&amp;kp TAB">
+<title>$ (position 35): &amp;kp TAB. Press Tab; release when the physical key is released.</title>
+<rect x="1030.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1088.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">$ · 35</text>
+<text x="1088.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Tab</text>
+<text x="1088.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="36" data-binding="&amp;kp ENTER">
+<title>Enter (position 36): &amp;kp ENTER. Press Enter; release when the physical key is released.</title>
+<rect x="1154.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Enter · 36</text>
+<text x="1212.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Enter</text>
+<text x="1212.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="37" data-binding="&amp;mod_ctrl">
+<title>aA left (position 37): &amp;mod_ctrl. Press Control immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="162.0" y="780.0" width="147.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="235.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">aA left · 37</text>
+<text x="235.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Control</text>
+<text x="235.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">Hold / 2× lock</text>
+<text x="235.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="38" data-binding="&amp;mod_gui">
+<title>0 (position 38): &amp;mod_gui. Press Command / GUI immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="317.0" y="780.0" width="147.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="390.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">0 · 38</text>
+<text x="390.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Command / GUI</text>
+<text x="390.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">Hold / 2× lock</text>
+<text x="390.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="39" data-binding="&amp;kp SPACE">
+<title>Space (position 39): &amp;kp SPACE. Press Space; release when the physical key is released.</title>
+<rect x="472.0" y="780.0" width="364.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="654.0" y="799.0" text-anchor="middle" font-size="11" fill="#374151">Space · 39</text>
+<text x="654.0" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Space</text>
+<text x="654.0" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="40" data-binding="&amp;sym_key">
+<title>SYM (position 40): &amp;sym_key. Tap for one use of SYM; hold to use it for the entire chord, then release to exit. Double-tap within 400 ms to lock it; tap again to exit it and its locked child layer. Holding never locks. An unused hold of 400 ms or longer exits on release. A released one-shot expires unused after 3000 ms. Modifiers do not consume it. Another physical key between taps cancels double-tap recognition.</title>
+<rect x="844.0" y="780.0" width="147.0" height="103" rx="9" fill="#ede9fe" stroke="#5b21b6" stroke-width="1.2"/>
+<text x="917.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">SYM · 40</text>
+<text x="917.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">SYM gestures</text>
+<text x="917.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">1× once / 2× stay</text>
+<text x="917.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">LAYER</text>
+</g>
+<g data-position="41" data-binding="&amp;upper_key">
+<title>aA right (position 41): &amp;upper_key. Tap for one use of UPPER; hold to use it for the entire chord, then release to exit. Double-tap within 400 ms to lock it; tap again to exit it and its locked child layer. Holding never locks. An unused hold of 400 ms or longer exits on release. A released one-shot expires unused after 3000 ms. Modifiers do not consume it. Another physical key between taps cancels double-tap recognition.</title>
+<rect x="999.0" y="780.0" width="147.0" height="103" rx="9" fill="#ede9fe" stroke="#5b21b6" stroke-width="1.2"/>
+<text x="1072.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">aA right · 41</text>
+<text x="1072.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">UPPER gestures</text>
+<text x="1072.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">1× once / 2× stay</text>
+<text x="1072.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">LAYER</text>
+</g>
+<text x="38" y="920" font-size="12">Combos (scope in guide): None</text>
+<text x="38" y="948" font-size="12">Source: config/zitaotech_q10.keymap · Colors classify behavior, not hardware LED colors · Symbols assume a US host layout</text>
+</g></svg>

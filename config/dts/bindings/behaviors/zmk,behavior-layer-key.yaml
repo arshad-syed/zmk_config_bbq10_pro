@@ -1,0 +1,18 @@
+description: Tap for one-shot layer, hold for chords, double tap to lock, tap to exit
+compatible: "zmk,behavior-layer-key"
+include: zero_param.yaml
+
+properties:
+  layer:
+    type: int
+    required: true
+  parent-layer:
+    type: int
+    default: -1
+    description: Preserve this parent while held or locked; explicitly exiting it also exits this child
+  tapping-term-ms:
+    type: int
+    default: 400
+  release-after-ms:
+    type: int
+    default: 3000

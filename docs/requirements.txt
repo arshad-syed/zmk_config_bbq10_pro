@@ -1,0 +1,2 @@
+# Exact renderer version keeps generated HTML stable. No network access at generation time.
+Markdown==3.8

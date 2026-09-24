@@ -20,9 +20,7 @@
 #define UPPER 2
 #define MEDIA 3
 
-#define SL_TO(layer) &sl_to layer layer //tap -> sticky layer, double tap -> to layer
-
-&sl { release-after-ms = <3000>; };
+#include "gestures.dtsi"
 
 / {
     behaviors {
@@ -32,27 +30,14 @@
             tapping-term-ms = <400>;
             bindings = <&mkp LCLK>, <&bt BT_CLR>;
         };
-    };
 
-    behaviors {
         td_boot_out: td_boot_out {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
             bindings = <&bootloader>, <&out OUT_TOG>;
         };
-    };
 
-    behaviors {
-        tdc_to_SYM: td_comma_to_layer {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&mt DLLR SEMI>, <&to SYM>;
-        };
-    };
-
-    behaviors {
         tdc_to_MEDIA: td_mute_to_layer {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -61,67 +46,28 @@
         };
     };
 
-    behaviors {
-        td1: tap_stickylayer_doubletap_tolayer_1 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&sl 1>, <&to 1>;
-        };
-    };
-
-    behaviors {
-        td2: tap_stickylayer_doubletap_tolayer_2 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&sl 2>, <&to 2>;
-        };
-    };
-
-    behaviors {
-        sk_kp: behavior_sk_kp {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <400>;
-            bindings = <&kp &sk>;          /* hold=kp, tap=sticky key */
-        };
-    };
-
-    behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            bindings = <&out &kp>;
-        };
-    };
-
-    combos { compatible = "zmk,combos"; };
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
 &mkp LCLK  &mkp RCLK
-&kp LEFT   &kp UP_ARROW  &mkp LCLK  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT   &kp DOWN_ARROW  &mkp LCLK  &kp UP_ARROW  &kp RIGHT_ARROW
 &kp Q      &kp W         &kp E      &kp R           &kp T             &kp Y        &kp U             &kp I    &kp O          &kp P
 &kp A      &kp S         &kp D      &kp F           &kp G             &kp H        &kp J             &kp K    &kp L          &kp BSPC
-&kp LSHFT  &kp Z         &kp X      &kp C           &kp V             &kp B        &kp N             &kp M    &mt DLLR SEMI  &kp ENTER
-                         &sl 1                      &kp LEFT_COMMAND  &kp SPACE    &kp LEFT_COMMAND  &kp TAB
+&mod_shift  &kp Z         &kp X      &kp C           &kp V             &kp B        &kp N             &kp M    &kp TAB  &kp ENTER
+                         &mod_ctrl                  &mod_gui          &kp SPACE    &sym_key        &upper_key
             >;
         };
 
         sym_layer {
             bindings = <
-&msc SCRL_DOWN  &msc SCRL_DOWN
+&msc SCRL_DOWN  &msc SCRL_UP
 &kp PSCRN       &kp C_AC_SEARCH  &mkp LCLK  &kp ESC  &kp TAB
 &kp HASH        &kp N1           &kp N2     &kp N3   &mt LBKT LPAR  &mt RBKT RPAR    &kp UNDER  &kp MINUS  &kp PLUS       &kp AT
 &kp STAR        &kp N4           &kp N5     &kp N6   &kp SLASH      &kp COLON        &kp SEMI   &kp APOS   &kp DQT        &kp DEL
-&kp LSHFT       &kp N7           &kp N8     &kp N9   &kp QMARK      &kp EXCL         &kp COMMA  &kp DOT    &tdc_to_MEDIA  &kp ENTER
-                                 &kp LCTRL           &kp N0         &kp SPACE        &mo 1      &sl 2
+&mod_shift      &kp N7           &kp N8     &kp N9   &kp QMARK      &kp EXCL         &kp COMMA  &kp DOT    &kp DLLR  &kp ENTER
+                                 &mod_ctrl           &sym_command   &kp ESC          &sym_key  &upper_key
             >;
         };
 
@@ -129,10 +75,10 @@
             bindings = <
 &msc SCRL_UP  &msc SCRL_DOWN
 &bt BT_SEL 0  &bt BT_SEL 1    &td0       &bt BT_SEL 2     &bt BT_SEL 3
-&none         &kp UP          &none      &sys_reset       &ext_power EP_TOG  &none              &kp LT      &kp GT           &kp PIPE      &kp KP_EQUAL
-&kp LEFT      &kp DOWN        &kp RIGHT  &none            &kp BSLH           &kp AMPS           &kp LBRC    &kp RBRC         &kp CARET     &kp BSPC
-&kp LSHFT     &none           &none      &rgb_ug RGB_BRD  &bl BL_DEC         &rgb_ug RGB_TOG    &bl BL_INC  &rgb_ug RGB_BRI  &td_boot_out  &kp ENTER
-                              &kp LCTRL                   &kp LALT           &kp SPACE          &to SYM     &to DEFAULT
+&none         &kp UP          &tdc_to_MEDIA  &sys_reset    &ext_power EP_TOG  &none              &kp LT      &kp GT           &kp PIPE      &kp KP_EQUAL
+&kp LEFT      &kp DOWN        &kp RIGHT  &none            &kp BSLH           &kp AMPS           &kp LBRC    &kp RBRC         &kp CARET     &kp ESC
+&mod_shift    &none           &none      &rgb_ug RGB_BRD  &bl BL_DEC         &rgb_ug RGB_TOG    &bl BL_INC  &rgb_ug RGB_BRI  &td_boot_out  &kp ENTER
+                              &mod_ctrl                   &mod_alt           &kp SPACE          &sym_key  &upper_key
             >;
         };
 

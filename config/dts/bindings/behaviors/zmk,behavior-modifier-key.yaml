@@ -1,0 +1,13 @@
+description: Immediate held modifier, double tap to lock, tap again to unlock
+compatible: "zmk,behavior-modifier-key"
+include: zero_param.yaml
+
+properties:
+  bindings:
+    type: phandle-array
+    required: true
+    description: One ordinary modifier key press binding
+  tapping-term-ms:
+    type: int
+    default: 250
+    description: Maximum first-to-second key-down interval for locking; holds have no delay

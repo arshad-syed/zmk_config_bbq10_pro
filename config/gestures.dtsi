@@ -1,0 +1,63 @@
+/* Modifiers activate immediately; double taps lock until the next tap. */
+/ {
+    behaviors {
+        mod_shift: modifier_shift {
+            compatible = "zmk,behavior-modifier-key";
+            #binding-cells = <0>;
+            display-name = "Shift: hold or double-tap lock";
+            tapping-term-ms = <250>;
+            bindings = <&kp LSHFT>;
+        };
+
+        mod_ctrl: modifier_ctrl {
+            compatible = "zmk,behavior-modifier-key";
+            #binding-cells = <0>;
+            display-name = "Control: hold or double-tap lock";
+            tapping-term-ms = <250>;
+            bindings = <&kp LCTRL>;
+        };
+
+        mod_alt: modifier_alt {
+            compatible = "zmk,behavior-modifier-key";
+            #binding-cells = <0>;
+            display-name = "Alt: hold or double-tap lock";
+            tapping-term-ms = <250>;
+            bindings = <&kp LALT>;
+        };
+
+        mod_gui: modifier_gui {
+            compatible = "zmk,behavior-modifier-key";
+            #binding-cells = <0>;
+            display-name = "Command: hold or double-tap lock";
+            tapping-term-ms = <250>;
+            bindings = <&kp LEFT_COMMAND>;
+        };
+
+        sym_command: symbol_command {
+            compatible = "zmk,behavior-layer-modifier";
+            #binding-cells = <0>;
+            layer = <SYM>;
+            bindings = <&mod_gui>, <&kp N0>;
+        };
+
+        /* Layer taps are one-shot; holds are momentary; double taps lock. */
+        sym_key: symbol_gestures {
+            compatible = "zmk,behavior-layer-key";
+            #binding-cells = <0>;
+            display-name = "SYM gestures";
+            layer = <SYM>;
+            tapping-term-ms = <400>;
+            release-after-ms = <3000>;
+        };
+
+        upper_key: upper_gestures {
+            compatible = "zmk,behavior-layer-key";
+            #binding-cells = <0>;
+            display-name = "UPPER gestures";
+            layer = <UPPER>;
+            parent-layer = <SYM>;
+            tapping-term-ms = <400>;
+            release-after-ms = <3000>;
+        };
+    };
+};

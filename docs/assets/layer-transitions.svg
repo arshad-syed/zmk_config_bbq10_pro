@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="1285" viewBox="0 0 1260 1285" role="img" aria-labelledby="title desc">
+<title id="title">Current layer-changing bindings</title>
+<desc id="desc">Read each row from left to right. Labels and colors identify the flow.</desc>
+<rect width="1260" height="1285" fill="white"/>
+<g font-family="system-ui, sans-serif" fill="#172033">
+<text x="24" y="38" font-size="24" font-weight="700">Current layer-changing bindings</text>
+<text x="26" y="78" font-size="15" font-weight="600">From</text>
+<text x="442" y="78" font-size="15" font-weight="600">Action</text>
+<text x="858" y="78" font-size="15" font-weight="600">Result</text>
+<rect x="24" y="94" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="119" font-size="14">DEFAULT</text>
+<text x="412" y="149" font-size="24">→</text>
+<rect x="440" y="94" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="119" font-size="14">Tap / hold / double tap / active tap: SYM</text>
+<text x="454" y="138" font-size="14">(40)</text>
+<text x="828" y="149" font-size="24">→</text>
+<rect x="856" y="94" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="119" font-size="14">SYM: One-shot / momentary / locked / exit</text>
+<rect x="24" y="210" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="235" font-size="14">DEFAULT</text>
+<text x="412" y="265" font-size="24">→</text>
+<rect x="440" y="210" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="235" font-size="14">Tap / hold / double tap / active tap: aA</text>
+<text x="454" y="254" font-size="14">right (41)</text>
+<text x="828" y="265" font-size="24">→</text>
+<rect x="856" y="210" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="235" font-size="14">UPPER: One-shot / momentary / locked / exit</text>
+<rect x="24" y="326" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="351" font-size="14">SYM</text>
+<text x="412" y="381" font-size="24">→</text>
+<rect x="440" y="326" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="351" font-size="14">Tap / hold / double tap / active tap: SYM</text>
+<text x="454" y="370" font-size="14">(40)</text>
+<text x="828" y="381" font-size="24">→</text>
+<rect x="856" y="326" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="351" font-size="14">SYM: One-shot / momentary / locked / exit</text>
+<rect x="24" y="442" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="467" font-size="14">SYM</text>
+<text x="412" y="497" font-size="24">→</text>
+<rect x="440" y="442" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="467" font-size="14">Tap / hold / double tap / active tap: aA</text>
+<text x="454" y="486" font-size="14">right (41)</text>
+<text x="828" y="497" font-size="24">→</text>
+<rect x="856" y="442" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="467" font-size="14">UPPER: One-shot / momentary / locked / exit</text>
+<rect x="24" y="558" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="583" font-size="14">UPPER</text>
+<text x="412" y="613" font-size="24">→</text>
+<rect x="440" y="558" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="583" font-size="14">Press: 2 press(es): E (9)</text>
+<text x="828" y="613" font-size="24">→</text>
+<rect x="856" y="558" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="583" font-size="14">MEDIA: Switch; release does not exit</text>
+<rect x="24" y="674" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="699" font-size="14">UPPER</text>
+<text x="412" y="729" font-size="24">→</text>
+<rect x="440" y="674" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="699" font-size="14">Tap / hold / double tap / active tap: SYM</text>
+<text x="454" y="718" font-size="14">(40)</text>
+<text x="828" y="729" font-size="24">→</text>
+<rect x="856" y="674" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="699" font-size="14">SYM: One-shot / momentary / locked / exit</text>
+<rect x="24" y="790" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="815" font-size="14">UPPER</text>
+<text x="412" y="845" font-size="24">→</text>
+<rect x="440" y="790" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="815" font-size="14">Tap / hold / double tap / active tap: aA</text>
+<text x="454" y="834" font-size="14">right (41)</text>
+<text x="828" y="845" font-size="24">→</text>
+<rect x="856" y="790" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="815" font-size="14">UPPER: One-shot / momentary / locked / exit</text>
+<rect x="24" y="906" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="931" font-size="14">MEDIA</text>
+<text x="412" y="961" font-size="24">→</text>
+<rect x="440" y="906" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="931" font-size="14">Press: $ (35)</text>
+<text x="828" y="961" font-size="24">→</text>
+<rect x="856" y="906" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="931" font-size="14">DEFAULT: Switch; release does not exit</text>
+<rect x="24" y="1022" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="1047" font-size="14">MEDIA</text>
+<text x="412" y="1077" font-size="24">→</text>
+<rect x="440" y="1022" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="1047" font-size="14">Press: SYM (40)</text>
+<text x="828" y="1077" font-size="24">→</text>
+<rect x="856" y="1022" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="1047" font-size="14">DEFAULT: Switch; release does not exit</text>
+<rect x="24" y="1138" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="1163" font-size="14">MEDIA</text>
+<text x="412" y="1193" font-size="24">→</text>
+<rect x="440" y="1138" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="1163" font-size="14">Press: aA right (41)</text>
+<text x="828" y="1193" font-size="24">→</text>
+<rect x="856" y="1138" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="1163" font-size="14">DEFAULT: Switch; release does not exit</text>
+</g></svg>

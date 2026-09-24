@@ -1,0 +1,12 @@
+description: Preserve a modifier while a layer key is held; otherwise use its symbol
+compatible: "zmk,behavior-layer-modifier"
+include: zero_param.yaml
+
+properties:
+  layer:
+    type: int
+    required: true
+  bindings:
+    type: phandle-array
+    required: true
+    description: Modifier for a held layer, followed by the ordinary symbol binding

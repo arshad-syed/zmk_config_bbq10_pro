@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="980" viewBox="0 0 1320 980" role="img" aria-labelledby="title desc">
+<title id="title">Layer 2: UPPER</title>
+<desc id="desc">42 physical keys, colored by behavior. Each key shows its position, physical label, action, and behavior category. See the accompanying text table for exact bindings.</desc>
+<rect width="1320" height="980" fill="#ffffff"/>
+<g font-family="system-ui, sans-serif" fill="#172033">
+<text x="38" y="42" font-size="27" font-weight="700">2 / UPPER</text>
+<text x="38" y="72" font-size="16">42 positions · 5 disabled · Current configuration</text>
+<rect x="38" y="96" width="12" height="12" rx="3" fill="#f1f5f9" stroke="#475569"/>
+<text x="59" y="107" font-size="12">KEY · Ordinary key / modifier</text>
+<rect x="458" y="96" width="12" height="12" rx="3" fill="#fff4d6" stroke="#92400e"/>
+<text x="479" y="107" font-size="12">HOLD/TAP · Different hold and tap actions</text>
+<rect x="878" y="96" width="12" height="12" rx="3" fill="#dcfce7" stroke="#166534"/>
+<text x="899" y="107" font-size="12">STICKY · One-shot key / layer</text>
+<rect x="38" y="123" width="12" height="12" rx="3" fill="#ffedd5" stroke="#9a3412"/>
+<text x="59" y="134" font-size="12">LATCH · Key stays pressed until toggled</text>
+<rect x="458" y="123" width="12" height="12" rx="3" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="479" y="134" font-size="12">LAYER · Layer activation / switch</text>
+<rect x="878" y="123" width="12" height="12" rx="3" fill="#fce7f3" stroke="#9d174d"/>
+<text x="899" y="134" font-size="12">DANCE · Single / double press</text>
+<rect x="38" y="150" width="12" height="12" rx="3" fill="#cffafe" stroke="#155e75"/>
+<text x="59" y="161" font-size="12">MOUSE · Mouse button / wheel</text>
+<rect x="458" y="150" width="12" height="12" rx="3" fill="#fee2e2" stroke="#991b1b"/>
+<text x="479" y="161" font-size="12">DEVICE · Connection / power / lighting</text>
+<rect x="878" y="150" width="12" height="12" rx="3" fill="#e5e7eb" stroke="#4b5563"/>
+<text x="899" y="161" font-size="12">OFF · Disabled; no fall-through</text>
+<text x="38" y="200" font-size="14">Top label = physical key + position · 1 / 2 = single / double press · ! = reset or pairing action</text>
+<g data-position="0" data-binding="&amp;msc SCRL_UP">
+<title>Shoulder L (position 0): &amp;msc SCRL_UP. Send upward mouse-wheel events while held.</title>
+<rect x="162.0" y="220.0" width="178.0" height="103" rx="9" fill="#cffafe" stroke="#155e75" stroke-width="1.2"/>
+<text x="251.0" y="239.0" text-anchor="middle" font-size="11" fill="#374151">Shoulder L · 0</text>
+<text x="251.0" y="265.0" text-anchor="middle" font-size="13.0" font-weight="650">Scroll up</text>
+<text x="251.0" y="309.0" text-anchor="middle" font-size="10" font-weight="700" fill="#155e75">MOUSE</text>
+</g>
+<g data-position="1" data-binding="&amp;msc SCRL_DOWN">
+<title>Shoulder R (position 1): &amp;msc SCRL_DOWN. Send downward mouse-wheel events while held.</title>
+<rect x="968.0" y="220.0" width="178.0" height="103" rx="9" fill="#cffafe" stroke="#155e75" stroke-width="1.2"/>
+<text x="1057.0" y="239.0" text-anchor="middle" font-size="11" fill="#374151">Shoulder R · 1</text>
+<text x="1057.0" y="265.0" text-anchor="middle" font-size="13.0" font-weight="650">Scroll down</text>
+<text x="1057.0" y="309.0" text-anchor="middle" font-size="10" font-weight="700" fill="#155e75">MOUSE</text>
+</g>
+<g data-position="2" data-binding="&amp;bt BT_SEL 0">
+<title>Call (position 2): &amp;bt BT_SEL 0. Select zero-based Bluetooth profile 0; an unpaired profile is available for pairing.</title>
+<rect x="38.0" y="332.0" width="240.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="158.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Call · 2</text>
+<text x="158.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">BT profile 0</text>
+<text x="158.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="3" data-binding="&amp;bt BT_SEL 1">
+<title>BlackBerry (position 3): &amp;bt BT_SEL 1. Select zero-based Bluetooth profile 1; an unpaired profile is available for pairing.</title>
+<rect x="286.0" y="332.0" width="240.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="406.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">BlackBerry · 3</text>
+<text x="406.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">BT profile 1</text>
+<text x="406.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="4" data-binding="&amp;td0">
+<title>Trackpad (position 4): &amp;td0. 1 press(es): Hold the left mouse button while pressed. 2 press(es): Erase the selected Bluetooth profile pairing. Dance interval: 400 ms.</title>
+<rect x="596.0" y="332.0" width="116.0" height="103" rx="9" fill="#fce7f3" stroke="#9d174d" stroke-width="1.2"/>
+<text x="654.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Trackpad · 4</text>
+<text x="654.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">1: Left click</text>
+<text x="654.0" y="396.0" text-anchor="middle" font-size="13.0" font-weight="650">2: Clear BT!</text>
+<text x="654.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9d174d">DANCE</text>
+</g>
+<g data-position="5" data-binding="&amp;bt BT_SEL 2">
+<title>Back (position 5): &amp;bt BT_SEL 2. Select zero-based Bluetooth profile 2; an unpaired profile is available for pairing.</title>
+<rect x="782.0" y="332.0" width="240.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="902.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">Back · 5</text>
+<text x="902.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">BT profile 2</text>
+<text x="902.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="6" data-binding="&amp;bt BT_SEL 3">
+<title>End call (position 6): &amp;bt BT_SEL 3. Select zero-based Bluetooth profile 3; an unpaired profile is available for pairing.</title>
+<rect x="1030.0" y="332.0" width="240.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="1150.0" y="351.0" text-anchor="middle" font-size="11" fill="#374151">End call · 6</text>
+<text x="1150.0" y="377.0" text-anchor="middle" font-size="13.0" font-weight="650">BT profile 3</text>
+<text x="1150.0" y="421.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="7" data-binding="&amp;none">
+<title>Q (position 7): &amp;none. No action; blocks the corresponding lower-layer key.</title>
+<rect x="38.0" y="444.0" width="116.0" height="103" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.2"/>
+<text x="96.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">Q · 7</text>
+<text x="96.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Disabled</text>
+<text x="96.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">OFF</text>
+</g>
+<g data-position="8" data-binding="&amp;kp UP">
+<title>W (position 8): &amp;kp UP. Press Up arrow; release when the physical key is released.</title>
+<rect x="162.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="220.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">W · 8</text>
+<text x="220.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Up arrow</text>
+<text x="220.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="9" data-binding="&amp;tdc_to_MEDIA">
+<title>E (position 9): &amp;tdc_to_MEDIA. 1 press(es): Press Mute; release when the physical key is released. 2 press(es): Switch to MEDIA; clear other nondefault layers. Releasing this key does not undo the switch. Dance interval: 400 ms.</title>
+<rect x="286.0" y="444.0" width="116.0" height="103" rx="9" fill="#fce7f3" stroke="#9d174d" stroke-width="1.2"/>
+<text x="344.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">E · 9</text>
+<text x="344.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">1: Mute</text>
+<text x="344.0" y="508.0" text-anchor="middle" font-size="11.2" font-weight="650">2: Go to / MEDIA</text>
+<text x="344.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9d174d">DANCE</text>
+</g>
+<g data-position="10" data-binding="&amp;sys_reset">
+<title>R (position 10): &amp;sys_reset. Restart firmware; do not erase settings.</title>
+<rect x="410.0" y="444.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="468.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">R · 10</text>
+<text x="468.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Reboot!</text>
+<text x="468.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="11" data-binding="&amp;ext_power EP_TOG">
+<title>T (position 11): &amp;ext_power EP_TOG. Toggle external power used for trackpad on/off according to the manufacturer.</title>
+<rect x="534.0" y="444.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="592.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">T · 11</text>
+<text x="592.0" y="489.0" text-anchor="middle" font-size="12.8" font-weight="650">Trackpad power</text>
+<text x="592.0" y="508.0" text-anchor="middle" font-size="13.0" font-weight="650">toggle</text>
+<text x="592.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="12" data-binding="&amp;none">
+<title>Y (position 12): &amp;none. No action; blocks the corresponding lower-layer key.</title>
+<rect x="658.0" y="444.0" width="116.0" height="103" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.2"/>
+<text x="716.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">Y · 12</text>
+<text x="716.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Disabled</text>
+<text x="716.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">OFF</text>
+</g>
+<g data-position="13" data-binding="&amp;kp LT">
+<title>U (position 13): &amp;kp LT. Press &lt;; release when the physical key is released.</title>
+<rect x="782.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="840.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">U · 13</text>
+<text x="840.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">&lt;</text>
+<text x="840.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="14" data-binding="&amp;kp GT">
+<title>I (position 14): &amp;kp GT. Press &gt;; release when the physical key is released.</title>
+<rect x="906.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="964.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">I · 14</text>
+<text x="964.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">&gt;</text>
+<text x="964.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="15" data-binding="&amp;kp PIPE">
+<title>O (position 15): &amp;kp PIPE. Press |; release when the physical key is released.</title>
+<rect x="1030.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1088.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">O · 15</text>
+<text x="1088.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">|</text>
+<text x="1088.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="16" data-binding="&amp;kp KP_EQUAL">
+<title>P (position 16): &amp;kp KP_EQUAL. Press Keypad =; release when the physical key is released.</title>
+<rect x="1154.0" y="444.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="463.0" text-anchor="middle" font-size="11" fill="#374151">P · 16</text>
+<text x="1212.0" y="489.0" text-anchor="middle" font-size="13.0" font-weight="650">Keypad =</text>
+<text x="1212.0" y="533.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="17" data-binding="&amp;kp LEFT">
+<title>A (position 17): &amp;kp LEFT. Press Left arrow; release when the physical key is released.</title>
+<rect x="38.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="96.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">A · 17</text>
+<text x="96.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Left arrow</text>
+<text x="96.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="18" data-binding="&amp;kp DOWN">
+<title>S (position 18): &amp;kp DOWN. Press Down arrow; release when the physical key is released.</title>
+<rect x="162.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="220.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">S · 18</text>
+<text x="220.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Down arrow</text>
+<text x="220.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="19" data-binding="&amp;kp RIGHT">
+<title>D (position 19): &amp;kp RIGHT. Press Right arrow; release when the physical key is released.</title>
+<rect x="286.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="344.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">D · 19</text>
+<text x="344.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Right arrow</text>
+<text x="344.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="20" data-binding="&amp;none">
+<title>F (position 20): &amp;none. No action; blocks the corresponding lower-layer key.</title>
+<rect x="410.0" y="556.0" width="116.0" height="103" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.2"/>
+<text x="468.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">F · 20</text>
+<text x="468.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Disabled</text>
+<text x="468.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">OFF</text>
+</g>
+<g data-position="21" data-binding="&amp;kp BSLH">
+<title>G (position 21): &amp;kp BSLH. Press \; release when the physical key is released.</title>
+<rect x="534.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="592.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">G · 21</text>
+<text x="592.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">\</text>
+<text x="592.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="22" data-binding="&amp;kp AMPS">
+<title>H (position 22): &amp;kp AMPS. Press &amp;; release when the physical key is released.</title>
+<rect x="658.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="716.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">H · 22</text>
+<text x="716.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">&amp;</text>
+<text x="716.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="23" data-binding="&amp;kp LBRC">
+<title>J (position 23): &amp;kp LBRC. Press {; release when the physical key is released.</title>
+<rect x="782.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="840.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">J · 23</text>
+<text x="840.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">{</text>
+<text x="840.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="24" data-binding="&amp;kp RBRC">
+<title>K (position 24): &amp;kp RBRC. Press }; release when the physical key is released.</title>
+<rect x="906.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="964.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">K · 24</text>
+<text x="964.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">}</text>
+<text x="964.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="25" data-binding="&amp;kp CARET">
+<title>L (position 25): &amp;kp CARET. Press ^; release when the physical key is released.</title>
+<rect x="1030.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1088.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">L · 25</text>
+<text x="1088.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">^</text>
+<text x="1088.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="26" data-binding="&amp;kp ESC">
+<title>Backspace (position 26): &amp;kp ESC. Press Escape; release when the physical key is released.</title>
+<rect x="1154.0" y="556.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="575.0" text-anchor="middle" font-size="11" fill="#374151">Backspace · 26</text>
+<text x="1212.0" y="601.0" text-anchor="middle" font-size="13.0" font-weight="650">Escape</text>
+<text x="1212.0" y="645.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="27" data-binding="&amp;mod_shift">
+<title>Alt (position 27): &amp;mod_shift. Press Shift immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="38.0" y="668.0" width="116.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="96.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Alt · 27</text>
+<text x="96.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Shift</text>
+<text x="96.0" y="732.0" text-anchor="middle" font-size="12.8" font-weight="650">Hold / 2× lock</text>
+<text x="96.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="28" data-binding="&amp;none">
+<title>Z (position 28): &amp;none. No action; blocks the corresponding lower-layer key.</title>
+<rect x="162.0" y="668.0" width="116.0" height="103" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.2"/>
+<text x="220.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Z · 28</text>
+<text x="220.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Disabled</text>
+<text x="220.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">OFF</text>
+</g>
+<g data-position="29" data-binding="&amp;none">
+<title>X (position 29): &amp;none. No action; blocks the corresponding lower-layer key.</title>
+<rect x="286.0" y="668.0" width="116.0" height="103" rx="9" fill="#e5e7eb" stroke="#4b5563" stroke-width="1.2"/>
+<text x="344.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">X · 29</text>
+<text x="344.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Disabled</text>
+<text x="344.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">OFF</text>
+</g>
+<g data-position="30" data-binding="&amp;rgb_ug RGB_BRD">
+<title>C (position 30): &amp;rgb_ug RGB_BRD. Decrease RGB brightness used by the custom keyboard-light driver.</title>
+<rect x="410.0" y="668.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="468.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">C · 30</text>
+<text x="468.0" y="713.0" text-anchor="middle" font-size="12.8" font-weight="650">Keyboard light</text>
+<text x="468.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">down</text>
+<text x="468.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="31" data-binding="&amp;bl BL_DEC">
+<title>V (position 31): &amp;bl BL_DEC. Decrease backlight by 10; custom trackpad indicator and pointer speed use it.</title>
+<rect x="534.0" y="668.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="592.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">V · 31</text>
+<text x="592.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Speed / LED</text>
+<text x="592.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">down</text>
+<text x="592.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="32" data-binding="&amp;rgb_ug RGB_TOG">
+<title>B (position 32): &amp;rgb_ug RGB_TOG. Toggle RGB state used by the custom keyboard-light driver.</title>
+<rect x="658.0" y="668.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="716.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">B · 32</text>
+<text x="716.0" y="713.0" text-anchor="middle" font-size="12.8" font-weight="650">Keyboard light</text>
+<text x="716.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">toggle</text>
+<text x="716.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="33" data-binding="&amp;bl BL_INC">
+<title>N (position 33): &amp;bl BL_INC. Increase backlight by 10; custom trackpad indicator and pointer speed use it.</title>
+<rect x="782.0" y="668.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="840.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">N · 33</text>
+<text x="840.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Speed / LED</text>
+<text x="840.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">up</text>
+<text x="840.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="34" data-binding="&amp;rgb_ug RGB_BRI">
+<title>M (position 34): &amp;rgb_ug RGB_BRI. Increase RGB brightness used by the custom keyboard-light driver.</title>
+<rect x="906.0" y="668.0" width="116.0" height="103" rx="9" fill="#fee2e2" stroke="#991b1b" stroke-width="1.2"/>
+<text x="964.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">M · 34</text>
+<text x="964.0" y="713.0" text-anchor="middle" font-size="12.8" font-weight="650">Keyboard light</text>
+<text x="964.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">up</text>
+<text x="964.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">DEVICE</text>
+</g>
+<g data-position="35" data-binding="&amp;td_boot_out">
+<title>$ (position 35): &amp;td_boot_out. 1 press(es): Enter the bootloader for firmware flashing. 2 press(es): Toggle preferred USB/Bluetooth output. Dance interval: 400 ms.</title>
+<rect x="1030.0" y="668.0" width="116.0" height="103" rx="9" fill="#fce7f3" stroke="#9d174d" stroke-width="1.2"/>
+<text x="1088.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">$ · 35</text>
+<text x="1088.0" y="713.0" text-anchor="middle" font-size="12.8" font-weight="650">1: Bootloader!</text>
+<text x="1088.0" y="732.0" text-anchor="middle" font-size="13.0" font-weight="650">2: USB / BLE</text>
+<text x="1088.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9d174d">DANCE</text>
+</g>
+<g data-position="36" data-binding="&amp;kp ENTER">
+<title>Enter (position 36): &amp;kp ENTER. Press Enter; release when the physical key is released.</title>
+<rect x="1154.0" y="668.0" width="116.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="1212.0" y="687.0" text-anchor="middle" font-size="11" fill="#374151">Enter · 36</text>
+<text x="1212.0" y="713.0" text-anchor="middle" font-size="13.0" font-weight="650">Enter</text>
+<text x="1212.0" y="757.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="37" data-binding="&amp;mod_ctrl">
+<title>aA left (position 37): &amp;mod_ctrl. Press Control immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="162.0" y="780.0" width="147.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="235.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">aA left · 37</text>
+<text x="235.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Control</text>
+<text x="235.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">Hold / 2× lock</text>
+<text x="235.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="38" data-binding="&amp;mod_alt">
+<title>0 (position 38): &amp;mod_alt. Press Alt immediately; an ordinary hold ends on release. Double-tap within 250 ms (first press to second press) to lock it across multiple keys. Tap the same modifier again to unlock. Another key or layer change between taps cancels double-tap recognition. Locks can combine and have no unused timeout; they reset on reboot.</title>
+<rect x="317.0" y="780.0" width="147.0" height="103" rx="9" fill="#ffedd5" stroke="#9a3412" stroke-width="1.2"/>
+<text x="390.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">0 · 38</text>
+<text x="390.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Alt</text>
+<text x="390.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">Hold / 2× lock</text>
+<text x="390.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3412">LATCH</text>
+</g>
+<g data-position="39" data-binding="&amp;kp SPACE">
+<title>Space (position 39): &amp;kp SPACE. Press Space; release when the physical key is released.</title>
+<rect x="472.0" y="780.0" width="364.0" height="103" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="654.0" y="799.0" text-anchor="middle" font-size="11" fill="#374151">Space · 39</text>
+<text x="654.0" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">Space</text>
+<text x="654.0" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">KEY</text>
+</g>
+<g data-position="40" data-binding="&amp;sym_key">
+<title>SYM (position 40): &amp;sym_key. Tap for one use of SYM; hold to use it for the entire chord, then release to exit. Double-tap within 400 ms to lock it; tap again to exit it and its locked child layer. Holding never locks. An unused hold of 400 ms or longer exits on release. A released one-shot expires unused after 3000 ms. Modifiers do not consume it. Another physical key between taps cancels double-tap recognition.</title>
+<rect x="844.0" y="780.0" width="147.0" height="103" rx="9" fill="#ede9fe" stroke="#5b21b6" stroke-width="1.2"/>
+<text x="917.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">SYM · 40</text>
+<text x="917.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">SYM gestures</text>
+<text x="917.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">1× once / 2× stay</text>
+<text x="917.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">LAYER</text>
+</g>
+<g data-position="41" data-binding="&amp;upper_key">
+<title>aA right (position 41): &amp;upper_key. Tap for one use of UPPER; hold to use it for the entire chord, then release to exit. Double-tap within 400 ms to lock it; tap again to exit it and its locked child layer. Holding never locks. An unused hold of 400 ms or longer exits on release. A released one-shot expires unused after 3000 ms. Modifiers do not consume it. Another physical key between taps cancels double-tap recognition.</title>
+<rect x="999.0" y="780.0" width="147.0" height="103" rx="9" fill="#ede9fe" stroke="#5b21b6" stroke-width="1.2"/>
+<text x="1072.5" y="799.0" text-anchor="middle" font-size="11" fill="#374151">aA right · 41</text>
+<text x="1072.5" y="825.0" text-anchor="middle" font-size="13.0" font-weight="650">UPPER gestures</text>
+<text x="1072.5" y="844.0" text-anchor="middle" font-size="13.0" font-weight="650">1× once / 2× stay</text>
+<text x="1072.5" y="869.0" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">LAYER</text>
+</g>
+<text x="38" y="920" font-size="12">Combos (scope in guide): None</text>
+<text x="38" y="948" font-size="12">Source: config/zitaotech_q10.keymap · Colors classify behavior, not hardware LED colors · Symbols assume a US host layout</text>
+</g></svg>

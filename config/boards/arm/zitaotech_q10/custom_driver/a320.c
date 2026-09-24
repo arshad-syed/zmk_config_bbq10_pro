@@ -16,7 +16,6 @@
 #include <zephyr/sys/byteorder.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-#include <stdlib.h>
 #include <zmk/event_manager.h>
 #include <zmk/events/position_state_changed.h>
 #include <zmk/events/hid_indicators_changed.h>
@@ -28,9 +27,6 @@ LOG_MODULE_REGISTER(a320, CONFIG_A320_LOG_LEVEL);
 /* =========================
  * Configurable parameters
  * ========================= */
-
-#define SHIFT_ARROW_DEBOUNCE_MS 50 // 
-#define SHIFT_ARROW_RELEASE_MS 20  // 
 
 #ifndef CONFIG_A320_POLL_INTERVAL_MS
 #define CONFIG_A320_POLL_INTERVAL_MS 2
@@ -59,12 +55,6 @@ static bool touched = false;
 static bool ctrl_pressed = false;
 static bool shift_pressed = false;
 
-static bool arrow_pressed = false;
-static int64_t last_arrow_time = 0;
-static const struct device *trackpoint_dev_ref = NULL;
-
-static struct k_work_delayable arrow_release_work;
-
 /* =========================
  * Data & Config structs
  * ========================= */
@@ -82,22 +72,6 @@ struct a320_data {
 };
 
 /* =========================
- * Arrow release work
- * ========================= */
-
-/*static void arrow_release_work_handler(struct k_work *work) {
-    if (arrow_pressed && trackpoint_dev_ref) {
-
-        input_report_key(trackpoint_dev_ref, INPUT_BTN_1, 0, true, K_FOREVER);
-        input_report_key(trackpoint_dev_ref, INPUT_BTN_1, 0, true, K_FOREVER);
-        input_report_key(trackpoint_dev_ref, INPUT_BTN_1, 0, true, K_FOREVER);
-        input_report_key(trackpoint_dev_ref, INPUT_BTN_1, 0, true, K_FOREVER);
-
-        arrow_pressed = false;
-    }
-}
-*/
-/* =========================
  * Key listener (Ctrl + Shift)
  * ========================= */
 
@@ -112,10 +86,9 @@ static int key_listener_cb(const zmk_event_t *eh) {
         ctrl_pressed = ev->state;
     }
 
-    /*  if (ev->position == 27) {
-          shift_pressed = ev->state;
-      }
-  */
+    if (ev->position == 27) {
+        shift_pressed = ev->state;
+    }
     return 0;
 }
 
@@ -190,43 +163,16 @@ static void a320_poll_work_handler(struct k_work *work) {
         if (data->read_motion(data->dev, &dx, &dy) == 0 && (dx || dy)) {
 
             bool capslock = current_indicators & HID_INDICATORS_CAPS_LOCK;
+            bool scroll_mode = capslock || shift_pressed;
 
             if (ctrl_pressed) {
                 dx /= 2;
                 dy /= 2;
             }
 
-            /* ===== SHIFT → ARROW MODE ===== */
-            /*
-            if (shift_pressed) {
-
-                int64_t now = k_uptime_get();
-
-                if (!arrow_pressed && (now - last_arrow_time >= SHIFT_ARROW_DEBOUNCE_MS)) {
-
-                    uint16_t keycode;
-
-                    if (abs(dx) > abs(dy)) {
-                        keycode = (dx > 0) ? INPUT_BTN_1 : INPUT_BTN_1;
-                    } else {
-                        keycode = (dy > 0) ? INPUT_BTN_1 : INPUT_BTN_1;
-                    }
-
-                    input_report_key(data->dev, keycode, 1, true, K_FOREVER);
-
-                    arrow_pressed = true;
-                    trackpoint_dev_ref = data->dev;
-                    last_arrow_time = now;
-
-                    k_work_schedule(&arrow_release_work, K_MSEC(SHIFT_ARROW_RELEASE_MS));
-                }
-
-                goto reschedule;
-            }
-*/
             /* ===== Normal mouse mode ===== */
 
-            if (!capslock) {
+            if (!scroll_mode) {
                 uint8_t brt = indicator_tp_get_last_valid_brightness();
                 float factor = 0.4f + 0.01f * brt;
 
@@ -234,7 +180,7 @@ static void a320_poll_work_handler(struct k_work *work) {
                 dy = dy * 3 / 2 * factor;
             }
 
-            if (capslock) {
+            if (scroll_mode) {
                 input_report_rel(data->dev, INPUT_REL_WHEEL, -dy / 16, true, K_FOREVER);
             } else {
                 input_report_rel(data->dev, INPUT_REL_X, dx, false, K_FOREVER);
@@ -246,7 +192,6 @@ static void a320_poll_work_handler(struct k_work *work) {
         touched = false;
     }
 
-reschedule:
     k_work_reschedule(&data->poll_work, K_MSEC(CONFIG_A320_POLL_INTERVAL_MS));
 }
 
@@ -284,8 +229,6 @@ static int a320_init(const struct device *dev) {
     data->dev = dev;
 
     k_work_init_delayable(&data->poll_work, a320_poll_work_handler);
-
-    // k_work_init_delayable(&arrow_release_work, arrow_release_work_handler);
 
     k_work_schedule(&data->poll_work, K_MSEC(CONFIG_A320_POLL_INTERVAL_MS));
 

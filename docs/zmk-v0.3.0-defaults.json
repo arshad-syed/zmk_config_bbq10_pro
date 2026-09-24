@@ -1,0 +1,12 @@
+{
+  "version": "v0.3.0",
+  "behaviors": {
+    "mt": {"tapping-term-ms": 200, "flavor": "hold-preferred", "bindings": ["&kp", "&kp"]},
+    "lt": {"tapping-term-ms": 200, "flavor": "tap-preferred", "bindings": ["&mo", "&kp"]},
+    "sk": {"release-after-ms": 1000, "ignore-modifiers": true},
+    "sl": {"release-after-ms": 1000, "quick-release": true}
+  },
+  "hold-tap-flavor": "hold-preferred",
+  "tap-dance-tapping-term-ms": 200,
+  "combo-timeout-ms": 50
+}

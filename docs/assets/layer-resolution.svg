@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="589" viewBox="0 0 1260 589" role="img" aria-labelledby="title desc">
+<title id="title">How a key position is resolved</title>
+<desc id="desc">Read each row from left to right. Labels and colors identify the flow.</desc>
+<rect width="1260" height="589" fill="white"/>
+<g font-family="system-ui, sans-serif" fill="#172033">
+<text x="24" y="38" font-size="24" font-weight="700">How a key position is resolved</text>
+<text x="26" y="78" font-size="15" font-weight="600">From</text>
+<text x="442" y="78" font-size="15" font-weight="600">Action</text>
+<text x="858" y="78" font-size="15" font-weight="600">Result</text>
+<rect x="24" y="94" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="119" font-size="14">Physical key press</text>
+<text x="412" y="149" font-size="24">→</text>
+<rect x="440" y="94" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="119" font-size="14">Check the highest active layer</text>
+<text x="828" y="149" font-size="24">→</text>
+<rect x="856" y="94" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="119" font-size="14">Find the binding at that position</text>
+<rect x="24" y="210" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="235" font-size="14">Ordinary / custom binding</text>
+<text x="412" y="265" font-size="24">→</text>
+<rect x="440" y="210" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="235" font-size="14">Run its behavior</text>
+<text x="828" y="265" font-size="24">→</text>
+<rect x="856" y="210" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="235" font-size="14">Send keycode or perform firmware action</text>
+<rect x="24" y="326" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="351" font-size="14">Transparent binding</text>
+<text x="412" y="381" font-size="24">→</text>
+<rect x="440" y="326" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="351" font-size="14">Check the next active layer underneath</text>
+<text x="828" y="381" font-size="24">→</text>
+<rect x="856" y="326" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="351" font-size="14">Resolve that position again</text>
+<rect x="24" y="442" width="380" height="100" rx="8" fill="#f1f5f9" stroke="#475569"/>
+<text x="38" y="467" font-size="14">Disabled binding</text>
+<text x="412" y="497" font-size="24">→</text>
+<rect x="440" y="442" width="380" height="100" rx="8" fill="#fff4d6" stroke="#92400e"/>
+<text x="454" y="467" font-size="14">Stop looking</text>
+<text x="828" y="497" font-size="24">→</text>
+<rect x="856" y="442" width="380" height="100" rx="8" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="870" y="467" font-size="14">No action; lower layers stay blocked</text>
+</g></svg>
